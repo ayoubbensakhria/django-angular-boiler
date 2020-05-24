@@ -1,16 +1,53 @@
-# Django REST With Angular
+# Django Angular Boiler
 
-## Dashboard Features
 
-- UI-Ready app, SQLite Database, Django Native ORM
-- Modular design, clean code-base
-- Session-Based Authentication, Forms validation
-- Deployment scripts: Heroku, Docker, Gunicorn / Nginx 
+## Installation
 
-## Technology stack
 
-- Python Django -> backend and the APIs
-_ Angular 8 -> fronend
-- Docker
-- gcloud cluster (Google Cloud), Kubernetes -> Container Orchestration And Auto-scaling
-- Gunicorn / Nginx - to serve the Django Apps
+```bash
+git clone https://github.com/ayoubbensakhria/django-angular-boiler.git
+```
+
+
+```bash
+cd django-angular-boiler
+```
+## Virtual environment
+```bash
+virtualenv -p python3.7 backend & cd backend
+```
+```bash
+source bin/activate
+```
+## Install requirements
+
+```bash
+pip install -r requirements.txt 
+```
+
+## Make Migrations
+
+```bash
+python manage.py makemigrations 
+```
+```bash
+python manage.py migrate 
+```
+## Create Super User
+```bash
+python manage.py createsuperuser 
+```
+
+
+## Run the server
+
+```bash
+python manage.py runserver
+```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

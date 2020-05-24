@@ -1,4 +1,4 @@
-#!/Users/macbook/Documents/projects/prolablis/bin/python
+#!/Users/macbook/Documents/projects/django-angular-boiler/backend/bin/python
 from django.core import management
 
 if __name__ == "__main__":

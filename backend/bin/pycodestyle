@@ -1,4 +1,4 @@
-#!/Users/macbook/Documents/projects/prolablis/bin/python
+#!/Users/macbook/Documents/projects/django-angular-boiler/backend/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

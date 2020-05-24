@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/Users/macbook/Documents/projects/prolablis'
+VIRTUAL_ENV='/Users/macbook/Documents/projects/django-angular-boiler/backend'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

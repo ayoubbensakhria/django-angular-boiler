@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/macbook/Documents/projects/prolablis"
+$VIRTUAL_ENV = r"/Users/macbook/Documents/projects/django-angular-boiler/backend"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
