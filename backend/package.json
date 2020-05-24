@@ -1,0 +1,29 @@
+{
+  "name": "prolablis",
+  "version": "1.0.1",
+  "description": "LIS",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "devDependencies": {
+    "eslint": "5.0.0",
+    "eslint-config-google": "0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://prolablis.com"
+  },
+  "keywords": [
+    "django",
+    "admin-panel",
+    "open-source"
+  ],
+  "author": "Ayoub Bensakhria",
+  "contributors": [
+    "AppSeed Support <support@prolablis.com>"
+  ],
+  "license": "MIT"
+}

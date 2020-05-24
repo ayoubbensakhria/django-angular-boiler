@@ -1,0 +1,36 @@
+version: '3'
+services:
+  prolablis:
+    restart: always
+    env_file: .env
+    build: .
+    ports:
+      - "5005:5005"
+    networks:
+      - db_network
+      - web_network
+  nginx:
+    restart: always
+    image: "nginx:latest"
+    ports:
+      - "85:85"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    networks:
+      - web_network
+    depends_on: 
+      - prolablis
+  #postgres:
+   # restart: always
+    #image: postgres:12.2
+    #ports:
+     # - "5432:5432"
+    #volumes:
+     # - ./pgdata:/var/lib/postgresql/data/
+
+networks:
+  db_network:
+    driver: bridge
+  web_network:
+    driver: bridge
+ 
